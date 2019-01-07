@@ -1,0 +1,25 @@
+{
+  "name": "crawler-fipe",
+  "version": "1.0.0",
+  "description": "Crawler tabela fipe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavooresende/crawler-fipe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavooresende/crawler-fipe/issues"
+  },
+  "homepage": "https://github.com/gustavooresende/crawler-fipe#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "csv-writer": "^1.2.0",
+    "https": "^1.0.0",
+    "request": "^2.88.0"
+  }
+}
