@@ -1,0 +1,18 @@
+
+ERRO:
+
+(node:39232) UnhandledPromiseRejectionWarning: RequestError: Error: 39228:error:1408F119:SSL routines:ssl3_get_record:decryption failed or bad record mac:openssl\ssl\record\ssl3_record.c:469:
+
+    at new RequestError (C:\Users\gusta\OneDrive\Documentos\Crawler Fipe\crawler-fipe\node_modules\request-promise-core\lib\errors.js:14:15)
+    at Request.plumbing.callback (C:\Users\gusta\OneDrive\Documentos\Crawler Fipe\crawler-fipe\node_modules\request-promise-core\lib\plumbing.js:87:29)
+    at Request.RP$callback [as _callback] (C:\Users\gusta\OneDrive\Documentos\Crawler Fipe\crawler-fipe\node_modules\request-promise-core\lib\plumbing.js:46:31)
+    at self.callback (C:\Users\gusta\OneDrive\Documentos\Crawler Fipe\crawler-fipe\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:182:13)
+    at Request.onRequestError (C:\Users\gusta\OneDrive\Documentos\Crawler Fipe\crawler-fipe\node_modules\request\request.js:881:8)
+    at ClientRequest.emit (events.js:182:13)
+    at TLSSocket.socketErrorListener (_http_client.js:391:9)
+    at TLSSocket.emit (events.js:182:13)
+    at TLSSocket._emitTLSError (_tls_wrap.js:606:10)
+    at TLSWrap.onerror (_tls_wrap.js:268:11)
+(node:39232) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:39232) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
