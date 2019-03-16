@@ -20,6 +20,7 @@
     "cheerio": "^1.0.0-rc.2",
     "csv-writer": "^1.2.0",
     "https": "^1.0.0",
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
   }
 }
